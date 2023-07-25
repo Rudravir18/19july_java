@@ -1,8 +1,3 @@
-first activity;
-
-Nodejs Express JS webserver
-
-const express = require('express')
 const app = express()
 
 app.get('/', function (req, res) {
@@ -15,5 +10,3 @@ app.get('/peanut', function (req, res) {
     console.log(req.query.name)
   })
 app.listen(3000)
-
-
